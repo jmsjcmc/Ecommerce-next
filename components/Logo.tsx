@@ -6,7 +6,7 @@ export default function Logo({className, spanDesign} : {className?: string; span
   return (
   <Link href={'/'}>
     <h2 className={cn('text-2xl text-shop_dark_green font-black tracking-wider uppercase hover:text-shop_light_green hoverEffect group font-sans', className)}>
-        Shopcar<span className={cn('text-shop_light_green group-hover:text-shop_dark_green hoverEffect', className)}>t</span>
+        Shopcar<span className={cn('text-shop_light_green group-hover:text-shop_dark_green hoverEffect', spanDesign)}>t</span>
     </h2>
   </Link>
   )
